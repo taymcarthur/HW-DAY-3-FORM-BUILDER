@@ -12,6 +12,7 @@ body {
 form {
 	display:flex;
 	font-weight:bold;
+	flex-wrap:wrap;
 }
 
 .bucket {
