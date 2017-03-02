@@ -1,0 +1,73 @@
+html {
+box-sizing:border-box;
+}
+*, *:before, *:after {
+box-sizing:inherit;
+}
+body {
+	background-color:rgb(92, 163, 214);
+
+}
+
+form {
+	display:flex;
+	font-weight:bold;
+}
+
+.bucket {
+	margin:10px 50px;
+	padding:50px;
+
+
+}
+
+textarea {
+	height:200px;
+	width:400px;
+	background:transparent;
+	border:solid white;
+}
+
+input {
+	background:transparent;
+	border:2px solid white;
+	height:50px;
+	width:400px;
+}
+
+input {
+	color:solid white;
+}
+
+select {
+	height:50px;
+	width:400px;
+	background:transparent;
+	color:white;
+	font-size:20px;
+
+}
+
+
+input, textarea {
+	 border:2px solid white;
+	 background:transparent;
+}
+
+label {
+	text-transform:uppercase;
+	display:block;
+	margin:20px 0 5px;
+	color:white;
+	font-size:20px;
+
+}
+
+::-webkit-input-placeholder {
+  color: rgb(41,104,149);
+  font-style:italic;
+  font-weight:bold;
+  font-size:20px;
+  /* can't figure out how to change font size */
+}
+
